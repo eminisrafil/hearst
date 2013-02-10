@@ -17,4 +17,4 @@
 database.yml
 .gitignore
 /config/
-config/
+config/*.yml
