@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: hearst_development
+  database: hearst
   host: localhost
   pool: 5
   timeout: 5000
@@ -16,7 +16,7 @@ test:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: hearst_test
+  database: hearst
   host: localhost
   pool: 5
   timeout: 5000
@@ -27,10 +27,9 @@ test:
 # we need it to be in production so it minifies assets
 production:
   adapter: postgresql
-  database: hearst_development
   encoding: utf8
   reconnect: false
-  database: hearst_production
+  database: hearst
   pool: 5
   timeout: 5000
   host_names:
