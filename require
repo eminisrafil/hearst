@@ -1,0 +1,18 @@
+Usage: mustache [-c] [-t] [-r library] FILE ...
+ 
+Examples:
+  $ mustache data.yml template.mustache
+  $ cat data.yml | mustache - template.mustache
+  $ mustache -c template.mustache
+ 
+  See mustache(1) or http://mustache.github.com/mustache.1.html
+  for more details.
+ 
+Options:
+    -c, --compile FILE               Print the compiled Ruby for a given template.
+    -t, --tokens FILE                Print the tokenized form of a given template.
+    -r, --require LIB                Require a Ruby library before running.
+Common Options:
+    -v, --version                    Print the version
+
+    -h, --help                       Show this message
