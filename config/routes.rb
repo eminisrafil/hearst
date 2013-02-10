@@ -1,6 +1,13 @@
 Hearst::Application.routes.draw do
+<<<<<<< HEAD
   match 'articles/fetch', :to => 'articles#fetch'
+=======
+
+  devise_for :users, :path_names => { :sign_in => 'login', :sign_out => 'logout'}
+
+>>>>>>> eaaeb1c68498a2c9ab36084bff2aaefc011159fc
   resources :articles
+  resources :settings
 
 
   # The priority is based upon order of creation:
