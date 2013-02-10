@@ -14,8 +14,7 @@ development:
   reconnect: false
   database: hearst_development
   pool: 5
-  username: root
-  password:
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -26,8 +25,7 @@ test:
   reconnect: false
   database: hearst_test
   pool: 5
-  username: root
-  password:
+
 
 production:
   adapter: pg
@@ -35,5 +33,4 @@ production:
   reconnect: false
   database: hearst_production
   pool: 5
-  username: root
-  password:
+
