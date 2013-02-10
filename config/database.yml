@@ -1,47 +1,5 @@
-common: &common
-  adapter: postgresql
-<<<<<<< HEAD
-  username: postgres
-  password: OnlyDestiny8
-=======
-  encoding: utf8
-  reconnect: false
-  database: hearst
->>>>>>> 44517a86bab2f6912ed8f4eda11329928cce0f91
-  host: localhost
-  port: 5432
-
 development:
-  <<: *common
-  database: hearst_development
-
-test:
-<<<<<<< HEAD
-  <<: *common
-  database: hearst_test
-=======
   adapter: postgresql
-  encoding: utf8
-  reconnect: false
   database: hearst
   host: localhost
-  pool: 5
-  timeout: 5000
-  host_names:
-    - test.localhost
->>>>>>> 44517a86bab2f6912ed8f4eda11329928cce0f91
-
-production:
-<<<<<<< HEAD
-  <<: *common
-  database: hearst_production
-=======
-  adapter: postgresql
   encoding: utf8
-  reconnect: false
-  database: hearst
-  pool: 5
-  timeout: 5000
-  host_names:
-    - production.localhost
->>>>>>> 44517a86bab2f6912ed8f4eda11329928cce0f91
