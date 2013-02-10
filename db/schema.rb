@@ -11,23 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20130210010123) do
-=======
 ActiveRecord::Schema.define(:version => 20130210013425) do
->>>>>>> 44517a86bab2f6912ed8f4eda11329928cce0f91
 
   create_table "articles", :force => true do |t|
     t.string   "address"
     t.integer  "positive"
     t.integer  "negative"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "tags", :force => true do |t|
-    t.integer  "article_id"
-    t.string   "keyword"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

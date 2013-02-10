@@ -1,0 +1,423 @@
+@import "foundation/common/ratios";
+
+
+$subHeaderColor: #6f6f6f;
+$colorThird: #2F353E;
+$colorFive: #e79159;
+$borderColor: solid #ddd; 
+$borderWidth: 1px 0 0; 
+
+// Settings file containing Foundation defaults
+
+// Grid Settings
+
+// $rowWidth: 1000px;
+// $columnGutter: 30px;
+// $totalColumns: 12;
+// $mobileTotalColumns: 4;
+// $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
+
+// Colors Settings
+
+$mainColor: #889dd0;
+// $secondaryColor: #e9e9e9;
+// $alertColor: #c60f13;
+// $successColor: #5da423;
+// $txtColor: #222;
+$highlightColor: #ffff99;
+// $black: #000;
+// $white: #fff;
+// $shinyEdge: rgba(#fff, .5);
+// $darkEdge: rgba(#000, .2);
+
+// Font Settings
+
+// $fontSmoothing: antialiased;
+$headerFontFamily: "adelle", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontWeight: 800;
+// $headerFontStyle: normal;
+$headerFontColor: #222;
+$bodyFontFamily: "adelle", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$bodyFontWeight:  400;
+// $bodyFontStyle: normal;
+// $bodyFontColor: $txtColor;
+
+// Text Direction Settings
+
+// $textDirection: ltr; // Controls default global text direction, 'rtl' or 'ltr'
+
+// Button Settings
+
+// $buttonRadius: 3px;
+// $btnBase: 10px;
+
+// $tinyBtnBase: $btnBase - 5;
+// $smallBtnBase: $btnBase - 3;
+// $largeBtnBase: $btnBase + 5;
+
+// Form Settings
+
+// $formSpacing: 12px;
+// $labelFontWeight: 500;
+// $labelFontColor: lighten(#000, 30%);
+// $labelBtmMargin: 3px;
+// $inputFontColor: rgba(0,0,0,0.75);
+// $inputFontSize: 14px;
+// $inputBgColor: #fff;
+// $inputFocusBgColor: darken(#fff, 2%);
+// $inputBorderColor: darken(#fff, 20%);
+// $inputFocusBorderColor: darken(#fff, 30%);
+// $inputBorderStyle: solid;
+// $inputBorderWidth: 1px;
+// $inputBorderRadius: 2px;
+// $fieldsetBorderRadius: 3px;
+
+// Custom Form Settings
+
+// $custFormBorderColor: #ccc;
+// $custFormBgColor: #fff;
+// $custCheckColor: #222;
+// $custSelectCurrentFontColor: #141414;
+// $custSelectBgColor: #fff;
+// $custSelectBorderColor: #ddd;
+// $custSelectTriangleColor: #aaa;
+// $custSelectTriangleColorOpen: #222;
+// $custSelectDropHeight: 200px;
+// $custDropdownBgColor: #fff;
+// $custDropdownBorderColor: darken(#fff, 20%);
+// $custDropdownFontColor: #555;
+// $custDropdownSelectedBgColor: lighten(#2ba6cb, 40%);
+// $custDropdownSelectedFontColor: #000;
+// $custFormDisabledBgColor: #ddd;
+
+// Tab Settings
+
+// $tabHeight: 40px;
+// $tabTermFontSize: 12px;
+
+// Nav Bar Settings
+
+// $navBarHeight: 40px;
+// $navFlyoutBaseWidth: 250px;
+
+// Top Bar Settings
+
+// $topBarBgColor: #222;
+// $topBarHeight: 45px;
+// $topBarHeightMobile: 45px;
+// $topBarBtmMargin: 30px;
+// $topBarTitleWeight: bold;
+// $topBarTitleSize: 17px;
+// $topBarLinkColor: #fff;
+// $topBarLinkWeight: bold;
+// $topBarLinkSize: 13px;
+// $topBarDropBgColor: #222;
+// $topBarDropLinkColor: #fff;
+// $topBarDropToggleSize: 5px;
+// $topBarDropToggleColor: #fff;
+// $topBarDropToggleAlpha: 0.5;
+// $topBarSearchWidth: 200px;
+// $topBarBreakPoint: 940px; // Change to 9999px for always mobile layout
+// $topBarNavToggleSize: 8px;
+
+// UI Settings
+
+// $thumbRadius: 3px;
+// $progBarHeight: 25px;
+// $progBarBorderColor: darken(#fff, 20%);
+// $progBarBorderSize: 1px;
+// $progBarPad: 2px;
+// $linkListBottomMargin: 17px -22px;
+// $tableBorderRadius: 3px;
+
+// Tooltip Settings
+
+// $hasTipBorderBottom: dotted 1px #ccc;
+// $hasTipFontWeight: bold;
+// $hasTipFontColor: #333;
+// $hasTipBorderBottomHover: dotted 1px darken($mainColor, 20%);
+// $hasTipFontColorHover: $mainColor;
+$tooltipBackgroundColor: $colorThird;
+// $tooltipBackgroundOpacity: 0.85;
+// $tooltipFontSize: 12px;
+// $tooltipFontWeight: bold;
+// $tooltipFontColor: #fff;
+// $tapToCloseFontSize: 10;
+// $tapToCloseFontWeight: normal;
+// $tapToCloseFontColor: #888;
+// $tooltipFontSizeScreenSm: 14;
+// $tooltipBgOpacityScreenSm: 0.85;
+// $tooltipBorderRadius: 4px;
+
+// Pricing Table Settings
+
+// $priceTableBorder: solid 1px #ddd;
+// $priceTitleBgColor: #ddd;
+// $priceTitlePadding: 15px 20px;
+// $priceTitleAlign: center;
+// $priceTitleColor: #333;
+// $priceTitleWeight: bold;
+// $priceTitleSize: 16px;
+
+// $priceMoneyBgColor: #eee;
+// $priceMoneyPadding: 15px 20px;
+// $priceMoneyAlign: center;
+// $priceMoneyColor: #333;
+// $priceMoneyWeight: normal;
+// $priceMoneySize: 20px;
+
+// $priceBgColor: #fff;
+// $priceDescColor: #777;
+// $priceDescPadding: 15px;
+// $priceDescAlign: center;
+// $priceDescFontSize: 12px;
+// $priceDescWeight: normal;
+// $priceDescLineHeight: 1.4;
+// $priceDescBtmBorder: dotted 1px #ddd;
+
+// $priceItemColor: #333;
+// $priceItemPadding: 15px;
+// $priceItemAlign: center;
+// $priceItemFontSize: 14px;
+// $priceItemWeight: normal;
+// $priceItemBtmBorder: dotted 1px #ddd;
+
+// $priceCtaBgColor: #f5f5f5;
+// $priceCtaAlign: center;
+// $priceCtaPadding: 20px;
+
+// Orbit Settings
+
+// $orbitCaptionBgColorOldBrowser: #000;
+// $orbitCaptionBgColor: rgba(0,0,0,.6);
+// $orbitCaptionFontColor: #fff;
+// $orbitBulletNavColor: #999;
+// $orbitBulletNavColorActive: #222;
+// $orbitHasThumbBorderColor: #000;
+// $orbitHasThumbBorderWidth: 2px;
+// $orbitHasThumbBorderStyle: solid;
+// $orbitSlideNumBgColor: rgba(0,0,0,0.7);
+// $orbitSlideNumFontColor: #fff;
+// $orbitSlideNumPadding: 5px;
+
+// Clearing Settings
+
+// $clearingBg: rgba(0,0,0,0.8);
+// $clearingOldBrowserBg: rgb(0,0,0);
+// $clearingCaptionBg: rgba(0,0,0,0.7);
+// $clearingCaptionOldBrowserBg: rgb(0,0,0);
+// $clearingCaptionFontColor: #fff;
+// $clearingCloseColor: #fff;
+// $clearingArrowColor: #fff;
+// $clearingArrowSize: 16px;
+// $clearingCarouselBg: rgba(0,0,0,0.75);
+// $clearingCarouselOldBrowserBg: rgb(0,0,0);
+// $clearingCarouselHeight: 150px;
+// $clearingActiveImgHeight: 75%;
+// $clearingCarouselThumbWidth: 175px;
+// $clearingCarouselThumbActiveBorder: 4px solid rgb(255,255,255);
+// $clearingImgBg: rgba(0,0,0,0.75);
+// $clearingImgOldBrowserBg: rgb(0,0,0);
+
+// Joyride Settings
+
+// $tipBg: rgba(0,0,0,0.8);
+// $tipBgIE8: #000;
+// $tipFontColor: #fff;
+// $tipHeaderWeight: bold;
+// $tipDefaultWidth: 300px;
+// $tipBorderRadius: 4px;
+// $tipPadding: 18px 20px 24px;
+// $tipNubSize: 14px;
+// $tipFontSize: 14px;
+// $tipTimerWidth: 50px;
+// $tipTimerHeight: 3px;
+// $tipTimerBorder: solid 1px #555;
+// $tipTimerColor: #666;
+// $tipCloseColor: #777;
+// $tipCloseSize: 20px;
+// $tipCloseWeight: normal;
+// $tipScreenFill: rgba(0,0,0,0.5);
+
+// Modular Scale Settings
+
+$baseFontSize: 12px;
+// $importantModNum: 44px;
+// $base-size: $baseFontSize $importantModNum;
+// Produced the following list of values: 14, 17, 23, 27, 37, 44, 59, 71, 95, 115;
+// http://www.modularscale.com by Tim Brown
+// https://github.com/scottkellum/modular-scale by scottkellum
+
+.header{
+	position: fixed;
+	z-index: 9999;
+	opacity: .9;
+	.logo{
+		background: lighten($colorThird, 5%);
+		padding-top:.5em;
+		border-top: 1em solid $colorThird;
+		h3{
+		}
+		img{
+			&:hover{
+			opacity: .8;
+			}
+		}
+	}
+	div.tweet-container{
+		padding-top: .9em;
+		.twitter-share-button{
+			
+		}
+
+	}
+}
+.subheader{
+	.san-serif{
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;;
+	}
+}
+.data-magellan-active-class{
+	background: black;
+}
+.hero-case{
+	background: url('http://www.elle.com/cm/elle/images/a0/elle-01-victoria-beckham-60s-style-shift-F5ffCl-dresses-lgn.jpg') no-repeat;
+	background-position:75% -25%;
+	height: 100%;
+	border-bottom: $borderColor;
+	border-width: $borderWidth;
+	clear: both;
+	padding-top: 11em;
+	padding-bottom: 1em;
+	h2{
+		color:$colorThird;
+	}
+	.button{
+		background-color: darken($mainColor, 20%);
+		font-weight: normal;
+		&:hover{
+			background-color: darken($mainColor, 10%);
+		}
+
+	}
+}
+
+.hero-content{
+	height: 100%;
+	.email-hero{
+		padding-bottom: 3em;
+	}
+	h4{
+		span{
+
+		}
+	}
+	.promise{
+		font-size: $baseFontSize;
+		margin-top: 0em;
+		.space{
+		padding-left:.2em;
+		}
+	}
+}
+.fancy{
+	font-family:'Grand Hotel', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+span.has-tip{
+	color: $subHeaderColor;
+}
+
+.key-points.columns{
+	border-top: $borderColor;
+	border-width: $borderWidth;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	.icon{
+		margin:0 auto;
+		text-indent: -9999px;
+		height: 100px;
+		width: 100px;
+		background:url('../images/hpsprites.png') no-repeat;;
+		opacity: .8;
+	}
+	.email{background-position: -200px -200px; }
+	.plane{background-position:-600px -600px; }
+	.location{background-position: -400px -400px; }
+	.share{background-position:  0 0; }
+	h3{
+		color: lighten($subHeaderColor,15%);
+
+	}
+	p{
+		color: lighten($subHeaderColor,5%);
+		font-size: 14px;
+	}
+}
+.twitter-add{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	a{
+		color: lighten($subHeaderColor, 50%);
+	}
+}
+.footer{
+	.description{
+		padding-top: 2em;
+		padding-bottom: 2em;
+		background: $colorThird;
+	}
+	.zigzag{
+		height:10px;
+		width: 100%;
+		background: url('../images/zigzag.png') repeat-x center bottom;
+	}
+	.button{
+		color: white;
+		background-color: darken($mainColor, 20%);
+		margin-top: 1em;
+		margin-bottom: 1em;
+		&:hover{
+			color: darken(white, 10%);
+		}
+	}
+	h3{
+		font-size: $baseFontSize;
+		color: darken(#fff, 25%);
+		font-weight:normal;
+		a{
+			color: white;
+			font-weight:800;
+			&:hover{
+				color: darken(#fff, 15%);
+			}
+		}
+	}
+}
+.closed-beta h4{
+	border-bottom: $borderColor;
+	border-width: $borderWidth;
+}
+#mySignUp{
+	.button{
+		background-color: darken($mainColor, 20%);
+		font-weight: normal;
+		&:hover{
+			background-color: darken($mainColor, 10%);
+		}
+
+	}
+	h3{
+		color: $subHeaderColor;
+	}
+	h5{
+		color: lighten($subHeaderColor,15%);
+		font-weight: normal;
+	}
+}
+.navigation ul.breadcrumbs{
+	a {
+		font-size: 1.4em;
+	}
+	background: none !important;
+	border: none !important;
+}
