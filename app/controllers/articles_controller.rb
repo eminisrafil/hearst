@@ -12,4 +12,5 @@ class ArticlesController < ApplicationController
 			@article.downvote
 		end
 	end
+	
 end
