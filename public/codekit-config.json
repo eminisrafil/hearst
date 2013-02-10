@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/images\/foundation\/orbit\/mask-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/mask-black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/mask-black.png",
-      "initialSize" : 526,
-      "fileType" : 8192
-    },
     "\/ratepage.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -21,6 +10,18 @@
       "inputAbbreviatedPath" : "\/ratepage.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/app.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/app.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/app.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/foundation\/orbit\/right-arrow-small.png" : {
       "ignoreWasSetByUser" : 0,
@@ -51,6 +52,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/images\/foundation\/orbit\/mask-black.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/mask-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/mask-black.png",
+      "initialSize" : 526,
+      "fileType" : 8192
+    },
     "\/images\/foundation\/orbit\/bullets.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -61,18 +73,6 @@
       "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/bullets.jpg",
       "initialSize" : 636,
       "fileType" : 4096
-    },
-    "\/sass\/app.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/app.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/app.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/javascripts\/foundation\/app.js" : {
       "ignoreWasSetByUser" : 0,
@@ -96,17 +96,6 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.alerts-ck.js",
       "fileType" : 64
     },
-    "\/images\/foundation\/orbit\/right-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/right-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/right-arrow.png",
-      "initialSize" : 3216,
-      "fileType" : 8192
-    },
     "\/javascripts\/foundation\/jquery.foundation.accordion.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -118,6 +107,28 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.accordion-ck.js",
       "fileType" : 64
     },
+    "\/javascripts\/foundation\/jquery.foundation.orbit.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.orbit.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.orbit-ck.js",
+      "fileType" : 64
+    },
+    "\/images\/foundation\/orbit\/right-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/right-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/right-arrow.png",
+      "initialSize" : 3216,
+      "fileType" : 8192
+    },
     "\/javascripts\/foundation\/jquery.event.move.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -127,17 +138,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.event.move-ck.js",
-      "fileType" : 64
-    },
-    "\/javascripts\/foundation\/jquery.foundation.tooltips.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.tooltips.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.tooltips-ck.js",
       "fileType" : 64
     },
     "\/images\/hpsprites.png" : {
@@ -151,15 +151,15 @@
       "initialSize" : 26987,
       "fileType" : 8192
     },
-    "\/javascripts\/foundation\/jquery.foundation.orbit.js" : {
+    "\/javascripts\/foundation\/jquery.foundation.tooltips.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.orbit.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.tooltips.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.orbit-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.tooltips-ck.js",
       "fileType" : 64
     },
     "\/images\/foundation\/orbit\/left-arrow.png" : {
@@ -322,6 +322,26 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.tabs-ck.js",
       "fileType" : 64
     },
+    "\/javascripts\/foundation\/jquery.foundation.reveal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.reveal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.reveal-ck.js",
+      "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/javascripts\/foundation\/jquery.event.swipe.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -333,27 +353,14 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.event.swipe-ck.js",
       "fileType" : 64
     },
-    "\/images\/foundation\/orbit\/timer-black.png" : {
+    "\/500.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/timer-black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/timer-black.png",
-      "initialSize" : 526,
-      "fileType" : 8192
-    },
-    "\/javascripts\/foundation\/jquery.foundation.reveal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.reveal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.reveal-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/500.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/422.html" : {
       "ignoreWasSetByUser" : 0,
@@ -375,27 +382,16 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.joyride-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/jquery.cookie.js" : {
+    "\/javascripts\/foundation\/jquery.offcanvas.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.cookie.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.offcanvas.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.cookie-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.offcanvas-ck.js",
       "fileType" : 64
-    },
-    "\/images\/tripout-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/tripout-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/tripout-logo.png",
-      "initialSize" : 6886,
-      "fileType" : 8192
     },
     "\/images\/zigzag.png" : {
       "ignoreWasSetByUser" : 0,
@@ -408,45 +404,27 @@
       "initialSize" : 209,
       "fileType" : 8192
     },
-    "\/500.html" : {
+    "\/images\/tripout-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/500.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/tripout-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/tripout-logo.png",
+      "initialSize" : 6886,
+      "fileType" : 8192
     },
-    "\/javascripts\/foundation\/jquery.offcanvas.js" : {
+    "\/images\/foundation\/orbit\/timer-black.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.offcanvas.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.offcanvas-ck.js",
-      "fileType" : 64
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/javascripts\/foundation\/jquery.foundation.buttons.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.buttons.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.buttons-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/foundation\/orbit\/timer-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation\/orbit\/timer-black.png",
+      "initialSize" : 526,
+      "fileType" : 8192
     },
     "\/javascripts\/foundation\/jquery.foundation.navigation.js" : {
       "ignoreWasSetByUser" : 0,
@@ -459,15 +437,37 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.navigation-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/modernizr.foundation.js" : {
+    "\/javascripts\/foundation\/jquery.foundation.buttons.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/modernizr.foundation.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.buttons.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/modernizr.foundation-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.buttons-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/foundation\/jquery.cookie.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.cookie.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.cookie-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/foundation\/jquery.foundation.topbar.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.topbar.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.topbar-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/foundation\/jquery.foundation.clearing.js" : {
@@ -481,15 +481,15 @@
       "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.clearing-ck.js",
       "fileType" : 64
     },
-    "\/javascripts\/foundation\/jquery.foundation.topbar.js" : {
+    "\/javascripts\/foundation\/modernizr.foundation.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.topbar.js",
+      "inputAbbreviatedPath" : "\/javascripts\/foundation\/modernizr.foundation.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/javascripts\/foundation\/jquery.foundation.topbar-ck.js",
+      "outputAbbreviatedPath" : "\/javascripts\/foundation\/modernizr.foundation-ck.js",
       "fileType" : 64
     },
     "\/404.html" : {
