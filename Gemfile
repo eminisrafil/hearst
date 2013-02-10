@@ -17,6 +17,7 @@ group :assets do
   # Add these gems
   gem 'compass-rails'
   gem 'zurb-foundation'
+  gem 'mustache'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
