@@ -1,46 +1,36 @@
-# This is a sample of how your database.yml file should be setup, 
-# but with your own user credentials of your local setup.
-# After you're done modifying this file to mirror setup, save this as database.yml
-
-common: &common
-  adapter: postgresql
-<<<<<<< HEAD
-  encoding: utf8
-  database: castfb_development
-  pool: 5
-  username: ubuntu
-  password: 
-
-test:
-  adapter: postgresql
-  encoding: utf8
-  database: castfb_test
-  pool: 5
-  username: ubuntu
-  password: 
-
-production:
-  adapter: postgresql
-  encoding: utf8
-  database: castfb_production
-  pool: 5
-  username: ubuntu
-  password: 
-=======
-  username: postgres
-  password: OnlyDestiny8
-  host: localhost
-  port: 5432
-
 development:
-  <<: *common
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
   database: hearst_development
+  host: localhost
+  pool: 5
+  timeout: 5000
+  host_names:
+    - "localhost"
 
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
 test:
-  <<: *common
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
   database: hearst_test
+  host: localhost
+  pool: 5
+  timeout: 5000
+  host_names:
+    - test.localhost
 
+# using the test db, so jenkins can run this config
+# we need it to be in production so it minifies assets
 production:
-  <<: *common
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
   database: hearst_production
->>>>>>> eaaeb1c68498a2c9ab36084bff2aaefc011159fc
+  pool: 5
+  timeout: 5000
+  host_names:
+    - production.localhost
