@@ -1,5 +1,5 @@
 Hearst::Application.routes.draw do
-
+  match 'articles/fetch', :to => 'articles#fetch'
   resources :articles
 
 
@@ -18,7 +18,7 @@ Hearst::Application.routes.draw do
   #   resources :products
 
   # Sample resource route with options:
-  #   resources :products do
+  #   resources :prodducts do
   #     member do
   #       get 'short'
   #       post 'toggle'
